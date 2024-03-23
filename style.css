@@ -72,6 +72,14 @@ body {
 padding: 35px 15%;
 }
 
+a,
+h1,
+h2,
+h4{
+    text-transform: uppercase;
+
+}
+
 
 /*nadpisy*/
 
@@ -100,8 +108,20 @@ h4{
 .email{
     font-family: 'Open sans', sans-serif  ;
     color:  #756158;
+    text-decoration: none
 
 }
+
+.odkaz:hover,
+.email:hover{
+    font-weight: bold;
+
+}
+
+.jmeno{
+    font-weight: bold;
+}
+
 
 .material-symbols-outlined{
     color: #756158;
